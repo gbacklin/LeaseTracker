@@ -18,7 +18,7 @@ class PropertyList: NSObject {
         
         let aData: Data? = try? Data(contentsOf: URL(fileURLWithPath: bundlePath as String))
         if (aData != nil) {
-            result = NSKeyedUnarchiver.unarchiveObject(with: aData!) as! NSDictionary
+            result = NSKeyedUnarchiver.unarchiveObject(with: aData!) as? NSDictionary
         }
         
         return result

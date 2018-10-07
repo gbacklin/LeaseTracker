@@ -102,14 +102,14 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
         let ac = UIAlertController(title: "Initialization", message: "Enter Starting Values", preferredStyle: .alert)
         ac.addTextField { (dateTextField) in
             dateTextField.placeholder = "Date MM/DD/YYYY"
-            dateTextField.clearButtonMode = UITextFieldViewMode.whileEditing
+            dateTextField.clearButtonMode = UITextField.ViewMode.whileEditing
             dateTextField.keyboardType = .numbersAndPunctuation
             dateTextField.becomeFirstResponder()
         }
         ac.addTextField { (mileageTextField) in
             mileageTextField.placeholder = "Mileage"
             mileageTextField.keyboardType = .numbersAndPunctuation
-            mileageTextField.clearButtonMode = UITextFieldViewMode.whileEditing
+            mileageTextField.clearButtonMode = UITextField.ViewMode.whileEditing
         }
         
         let action: UIAlertAction? = UIAlertAction(title: "Submit", style: .default) {[ac] (action: UIAlertAction) in
@@ -240,10 +240,10 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
         if textField == self.currentDateTextField {
             CATransaction.begin()
             CATransaction.setAnimationDuration(0.75)
-            self.datePicker.datePickerMode = UIDatePickerMode.date
+            self.datePicker.datePickerMode = UIDatePicker.Mode.date
             textField.inputView = self.datePicker
             textField.inputAccessoryView = self.inputAccessoryToolBar
-            self.datePicker.addTarget(self, action: #selector(EntryViewController.handleDatePicker(_:)), for: UIControlEvents.valueChanged)
+            self.datePicker.addTarget(self, action: #selector(EntryViewController.handleDatePicker(_:)), for: UIControl.Event.valueChanged)
             CATransaction.commit()
         }
         

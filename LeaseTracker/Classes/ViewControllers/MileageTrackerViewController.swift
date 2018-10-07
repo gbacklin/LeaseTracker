@@ -42,7 +42,7 @@ class MileageTrackerViewController: UIViewController, CLLocationManagerDelegate 
             self.mileage = self.readData("mileage")
             self.checkForSavedData()
             
-            NotificationCenter.default.addObserver(self, selector: #selector(MileageTrackerViewController.appMovedToBackground(_:)), name: NSNotification.Name.UIApplicationWillResignActive, object: nil)
+            NotificationCenter.default.addObserver(self, selector: #selector(MileageTrackerViewController.appMovedToBackground(_:)), name: UIApplication.willResignActiveNotification, object: nil)
             
         } else {
             self.startButton.isEnabled = false

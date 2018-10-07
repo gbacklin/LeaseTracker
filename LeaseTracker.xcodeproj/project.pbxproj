@@ -3,83 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E101B721D05C95500C96488 /* MileageTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E101B711D05C95500C96488 /* MileageTrackerViewController.swift */; };
-		4E101B741D05C98B00C96488 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E101B731D05C98B00C96488 /* CoreLocation.framework */; };
-		4E101B781D05D7BD00C96488 /* HistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E101B761D05D7BD00C96488 /* HistoryDetailViewController.swift */; };
-		4E101B791D05D7BD00C96488 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E101B771D05D7BD00C96488 /* HistoryTableViewController.swift */; };
-		4E51B1A81FFACE520096CB7F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E51B1A71FFACE520096CB7F /* README.md */; };
-		4E898E031CE18E6D00E4DA1A /* SummaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E898E021CE18E6D00E4DA1A /* SummaryTableViewController.swift */; };
-		4EEC08F81CE02FD30006E3BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEC08F71CE02FD30006E3BB /* AppDelegate.swift */; };
-		4EEC08FF1CE02FD30006E3BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEC08FD1CE02FD30006E3BB /* Main.storyboard */; };
-		4EEC09011CE02FD30006E3BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEC09001CE02FD30006E3BB /* Assets.xcassets */; };
-		4EEC09041CE02FD30006E3BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEC09021CE02FD30006E3BB /* LaunchScreen.storyboard */; };
-		4EEC090F1CE02FD30006E3BB /* LeaseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEC090E1CE02FD30006E3BB /* LeaseTrackerTests.swift */; };
-		4EEC091A1CE02FD30006E3BB /* LeaseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEC09191CE02FD30006E3BB /* LeaseTrackerUITests.swift */; };
-		4EEC09281CE030440006E3BB /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEC09271CE030440006E3BB /* EntryViewController.swift */; };
-		4EEC092A1CE030F20006E3BB /* PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEC09291CE030F20006E3BB /* PropertyList.swift */; };
+		4E5E8B67216A7A43002B564C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E8B66216A7A43002B564C /* AppDelegate.swift */; };
+		4E5E8B6C216A7A43002B564C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5E8B6A216A7A43002B564C /* Main.storyboard */; };
+		4E5E8B6E216A7A44002B564C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5E8B6D216A7A44002B564C /* Assets.xcassets */; };
+		4E5E8B71216A7A44002B564C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5E8B6F216A7A44002B564C /* LaunchScreen.storyboard */; };
+		4E5E8B81216A7F7B002B564C /* PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E8B7A216A7F7B002B564C /* PropertyList.swift */; };
+		4E5E8B82216A7F7B002B564C /* HistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E8B7C216A7F7B002B564C /* HistoryDetailViewController.swift */; };
+		4E5E8B83216A7F7B002B564C /* MileageTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E8B7D216A7F7B002B564C /* MileageTrackerViewController.swift */; };
+		4E5E8B84216A7F7B002B564C /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E8B7E216A7F7B002B564C /* EntryViewController.swift */; };
+		4E5E8B85216A7F7B002B564C /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E8B7F216A7F7B002B564C /* HistoryTableViewController.swift */; };
+		4E5E8B86216A7F7B002B564C /* SummaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E8B80216A7F7B002B564C /* SummaryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4EEC090B1CE02FD30006E3BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4EEC08EC1CE02FD30006E3BB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EEC08F31CE02FD30006E3BB;
-			remoteInfo = LeaseTracker;
-		};
-		4EEC09161CE02FD30006E3BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4EEC08EC1CE02FD30006E3BB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EEC08F31CE02FD30006E3BB;
-			remoteInfo = LeaseTracker;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4E101B711D05C95500C96488 /* MileageTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MileageTrackerViewController.swift; path = Classes/ViewControllers/MileageTrackerViewController.swift; sourceTree = "<group>"; };
-		4E101B731D05C98B00C96488 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		4E101B761D05D7BD00C96488 /* HistoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryDetailViewController.swift; path = Classes/ViewControllers/HistoryDetailViewController.swift; sourceTree = "<group>"; };
-		4E101B771D05D7BD00C96488 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryTableViewController.swift; path = Classes/ViewControllers/HistoryTableViewController.swift; sourceTree = "<group>"; };
-		4E51B1A71FFACE520096CB7F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4E898E021CE18E6D00E4DA1A /* SummaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SummaryTableViewController.swift; path = Classes/ViewControllers/SummaryTableViewController.swift; sourceTree = "<group>"; };
-		4EEC08F41CE02FD30006E3BB /* LeaseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EEC08F71CE02FD30006E3BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EEC08FE1CE02FD30006E3BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4EEC09001CE02FD30006E3BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4EEC09031CE02FD30006E3BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4EEC09051CE02FD30006E3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EEC090A1CE02FD30006E3BB /* LeaseTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeaseTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EEC090E1CE02FD30006E3BB /* LeaseTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseTrackerTests.swift; sourceTree = "<group>"; };
-		4EEC09101CE02FD30006E3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EEC09151CE02FD30006E3BB /* LeaseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeaseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EEC09191CE02FD30006E3BB /* LeaseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseTrackerUITests.swift; sourceTree = "<group>"; };
-		4EEC091B1CE02FD30006E3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EEC09271CE030440006E3BB /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryViewController.swift; path = Classes/ViewControllers/EntryViewController.swift; sourceTree = "<group>"; };
-		4EEC09291CE030F20006E3BB /* PropertyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertyList.swift; path = Classes/Utilities/PropertyList.swift; sourceTree = "<group>"; };
+		4E5E8B63216A7A43002B564C /* LeaseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5E8B66216A7A43002B564C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E5E8B6B216A7A43002B564C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E5E8B6D216A7A44002B564C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E5E8B70216A7A44002B564C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E5E8B72216A7A44002B564C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5E8B7A216A7F7B002B564C /* PropertyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyList.swift; sourceTree = "<group>"; };
+		4E5E8B7C216A7F7B002B564C /* HistoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailViewController.swift; sourceTree = "<group>"; };
+		4E5E8B7D216A7F7B002B564C /* MileageTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MileageTrackerViewController.swift; sourceTree = "<group>"; };
+		4E5E8B7E216A7F7B002B564C /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		4E5E8B7F216A7F7B002B564C /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		4E5E8B80216A7F7B002B564C /* SummaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4EEC08F11CE02FD30006E3BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E101B741D05C98B00C96488 /* CoreLocation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EEC09071CE02FD30006E3BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EEC09121CE02FD30006E3BB /* Frameworks */ = {
+		4E5E8B60216A7A43002B564C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,106 +45,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E101B751D05C99000C96488 /* Frameworks */ = {
+		4E5E8B5A216A7A43002B564C = {
 			isa = PBXGroup;
 			children = (
-				4E101B731D05C98B00C96488 /* CoreLocation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4EEC08EB1CE02FD30006E3BB = {
-			isa = PBXGroup;
-			children = (
-				4E51B1A71FFACE520096CB7F /* README.md */,
-				4E101B751D05C99000C96488 /* Frameworks */,
-				4EEC08F61CE02FD30006E3BB /* LeaseTracker */,
-				4EEC090D1CE02FD30006E3BB /* LeaseTrackerTests */,
-				4EEC09181CE02FD30006E3BB /* LeaseTrackerUITests */,
-				4EEC08F51CE02FD30006E3BB /* Products */,
+				4E5E8B65216A7A43002B564C /* LeaseTracker */,
+				4E5E8B64216A7A43002B564C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4EEC08F51CE02FD30006E3BB /* Products */ = {
+		4E5E8B64216A7A43002B564C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EEC08F41CE02FD30006E3BB /* LeaseTracker.app */,
-				4EEC090A1CE02FD30006E3BB /* LeaseTrackerTests.xctest */,
-				4EEC09151CE02FD30006E3BB /* LeaseTrackerUITests.xctest */,
+				4E5E8B63216A7A43002B564C /* LeaseTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4EEC08F61CE02FD30006E3BB /* LeaseTracker */ = {
+		4E5E8B65216A7A43002B564C /* LeaseTracker */ = {
 			isa = PBXGroup;
 			children = (
-				4EEC08F71CE02FD30006E3BB /* AppDelegate.swift */,
-				4EEC092B1CE030FB0006E3BB /* Classes */,
-				4EEC08FD1CE02FD30006E3BB /* Main.storyboard */,
-				4EEC09001CE02FD30006E3BB /* Assets.xcassets */,
-				4EEC09021CE02FD30006E3BB /* LaunchScreen.storyboard */,
-				4EEC09051CE02FD30006E3BB /* Info.plist */,
+				4E5E8B66216A7A43002B564C /* AppDelegate.swift */,
+				4E5E8B78216A7F7B002B564C /* Classes */,
+				4E5E8B6A216A7A43002B564C /* Main.storyboard */,
+				4E5E8B6D216A7A44002B564C /* Assets.xcassets */,
+				4E5E8B6F216A7A44002B564C /* LaunchScreen.storyboard */,
+				4E5E8B72216A7A44002B564C /* Info.plist */,
 			);
 			path = LeaseTracker;
 			sourceTree = "<group>";
 		};
-		4EEC090D1CE02FD30006E3BB /* LeaseTrackerTests */ = {
+		4E5E8B78216A7F7B002B564C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4EEC090E1CE02FD30006E3BB /* LeaseTrackerTests.swift */,
-				4EEC09101CE02FD30006E3BB /* Info.plist */,
+				4E5E8B79216A7F7B002B564C /* Utilities */,
+				4E5E8B7B216A7F7B002B564C /* ViewControllers */,
 			);
-			path = LeaseTrackerTests;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		4EEC09181CE02FD30006E3BB /* LeaseTrackerUITests */ = {
+		4E5E8B79216A7F7B002B564C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				4EEC09191CE02FD30006E3BB /* LeaseTrackerUITests.swift */,
-				4EEC091B1CE02FD30006E3BB /* Info.plist */,
+				4E5E8B7A216A7F7B002B564C /* PropertyList.swift */,
 			);
-			path = LeaseTrackerUITests;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
-		4EEC092B1CE030FB0006E3BB /* Classes */ = {
+		4E5E8B7B216A7F7B002B564C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4EEC092C1CE031030006E3BB /* ViewControllers */,
-				4EEC092D1CE0310C0006E3BB /* Utilities */,
+				4E5E8B7C216A7F7B002B564C /* HistoryDetailViewController.swift */,
+				4E5E8B7D216A7F7B002B564C /* MileageTrackerViewController.swift */,
+				4E5E8B7E216A7F7B002B564C /* EntryViewController.swift */,
+				4E5E8B7F216A7F7B002B564C /* HistoryTableViewController.swift */,
+				4E5E8B80216A7F7B002B564C /* SummaryTableViewController.swift */,
 			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		4EEC092C1CE031030006E3BB /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				4EEC09271CE030440006E3BB /* EntryViewController.swift */,
-				4E898E021CE18E6D00E4DA1A /* SummaryTableViewController.swift */,
-				4E101B711D05C95500C96488 /* MileageTrackerViewController.swift */,
-				4E101B761D05D7BD00C96488 /* HistoryDetailViewController.swift */,
-				4E101B771D05D7BD00C96488 /* HistoryTableViewController.swift */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		4EEC092D1CE0310C0006E3BB /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				4EEC09291CE030F20006E3BB /* PropertyList.swift */,
-			);
-			name = Utilities;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EEC08F31CE02FD30006E3BB /* LeaseTracker */ = {
+		4E5E8B62216A7A43002B564C /* LeaseTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EEC091E1CE02FD30006E3BB /* Build configuration list for PBXNativeTarget "LeaseTracker" */;
+			buildConfigurationList = 4E5E8B75216A7A44002B564C /* Build configuration list for PBXNativeTarget "LeaseTracker" */;
 			buildPhases = (
-				4EEC08F01CE02FD30006E3BB /* Sources */,
-				4EEC08F11CE02FD30006E3BB /* Frameworks */,
-				4EEC08F21CE02FD30006E3BB /* Resources */,
+				4E5E8B5F216A7A43002B564C /* Sources */,
+				4E5E8B60216A7A43002B564C /* Frameworks */,
+				4E5E8B61216A7A43002B564C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -196,185 +120,86 @@
 			);
 			name = LeaseTracker;
 			productName = LeaseTracker;
-			productReference = 4EEC08F41CE02FD30006E3BB /* LeaseTracker.app */;
+			productReference = 4E5E8B63216A7A43002B564C /* LeaseTracker.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4EEC09091CE02FD30006E3BB /* LeaseTrackerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EEC09211CE02FD30006E3BB /* Build configuration list for PBXNativeTarget "LeaseTrackerTests" */;
-			buildPhases = (
-				4EEC09061CE02FD30006E3BB /* Sources */,
-				4EEC09071CE02FD30006E3BB /* Frameworks */,
-				4EEC09081CE02FD30006E3BB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4EEC090C1CE02FD30006E3BB /* PBXTargetDependency */,
-			);
-			name = LeaseTrackerTests;
-			productName = LeaseTrackerTests;
-			productReference = 4EEC090A1CE02FD30006E3BB /* LeaseTrackerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4EEC09141CE02FD30006E3BB /* LeaseTrackerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EEC09241CE02FD30006E3BB /* Build configuration list for PBXNativeTarget "LeaseTrackerUITests" */;
-			buildPhases = (
-				4EEC09111CE02FD30006E3BB /* Sources */,
-				4EEC09121CE02FD30006E3BB /* Frameworks */,
-				4EEC09131CE02FD30006E3BB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4EEC09171CE02FD30006E3BB /* PBXTargetDependency */,
-			);
-			name = LeaseTrackerUITests;
-			productName = LeaseTrackerUITests;
-			productReference = 4EEC09151CE02FD30006E3BB /* LeaseTrackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4EEC08EC1CE02FD30006E3BB /* Project object */ = {
+		4E5E8B5B216A7A43002B564C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0900;
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Gene Backlin";
 				TargetAttributes = {
-					4EEC08F31CE02FD30006E3BB = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 8DT5Y3HP4L;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = 1;
-							};
-						};
-					};
-					4EEC09091CE02FD30006E3BB = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 4EEC08F31CE02FD30006E3BB;
-					};
-					4EEC09141CE02FD30006E3BB = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 4EEC08F31CE02FD30006E3BB;
+					4E5E8B62216A7A43002B564C = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
-			buildConfigurationList = 4EEC08EF1CE02FD30006E3BB /* Build configuration list for PBXProject "LeaseTracker" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4E5E8B5E216A7A43002B564C /* Build configuration list for PBXProject "LeaseTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4EEC08EB1CE02FD30006E3BB;
-			productRefGroup = 4EEC08F51CE02FD30006E3BB /* Products */;
+			mainGroup = 4E5E8B5A216A7A43002B564C;
+			productRefGroup = 4E5E8B64216A7A43002B564C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EEC08F31CE02FD30006E3BB /* LeaseTracker */,
-				4EEC09091CE02FD30006E3BB /* LeaseTrackerTests */,
-				4EEC09141CE02FD30006E3BB /* LeaseTrackerUITests */,
+				4E5E8B62216A7A43002B564C /* LeaseTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4EEC08F21CE02FD30006E3BB /* Resources */ = {
+		4E5E8B61216A7A43002B564C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EEC09041CE02FD30006E3BB /* LaunchScreen.storyboard in Resources */,
-				4EEC09011CE02FD30006E3BB /* Assets.xcassets in Resources */,
-				4E51B1A81FFACE520096CB7F /* README.md in Resources */,
-				4EEC08FF1CE02FD30006E3BB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EEC09081CE02FD30006E3BB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EEC09131CE02FD30006E3BB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4E5E8B71216A7A44002B564C /* LaunchScreen.storyboard in Resources */,
+				4E5E8B6E216A7A44002B564C /* Assets.xcassets in Resources */,
+				4E5E8B6C216A7A43002B564C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4EEC08F01CE02FD30006E3BB /* Sources */ = {
+		4E5E8B5F216A7A43002B564C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E898E031CE18E6D00E4DA1A /* SummaryTableViewController.swift in Sources */,
-				4E101B721D05C95500C96488 /* MileageTrackerViewController.swift in Sources */,
-				4E101B781D05D7BD00C96488 /* HistoryDetailViewController.swift in Sources */,
-				4EEC09281CE030440006E3BB /* EntryViewController.swift in Sources */,
-				4E101B791D05D7BD00C96488 /* HistoryTableViewController.swift in Sources */,
-				4EEC092A1CE030F20006E3BB /* PropertyList.swift in Sources */,
-				4EEC08F81CE02FD30006E3BB /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EEC09061CE02FD30006E3BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EEC090F1CE02FD30006E3BB /* LeaseTrackerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EEC09111CE02FD30006E3BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EEC091A1CE02FD30006E3BB /* LeaseTrackerUITests.swift in Sources */,
+				4E5E8B86216A7F7B002B564C /* SummaryTableViewController.swift in Sources */,
+				4E5E8B82216A7F7B002B564C /* HistoryDetailViewController.swift in Sources */,
+				4E5E8B83216A7F7B002B564C /* MileageTrackerViewController.swift in Sources */,
+				4E5E8B67216A7A43002B564C /* AppDelegate.swift in Sources */,
+				4E5E8B85216A7F7B002B564C /* HistoryTableViewController.swift in Sources */,
+				4E5E8B81216A7F7B002B564C /* PropertyList.swift in Sources */,
+				4E5E8B84216A7F7B002B564C /* EntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4EEC090C1CE02FD30006E3BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4EEC08F31CE02FD30006E3BB /* LeaseTracker */;
-			targetProxy = 4EEC090B1CE02FD30006E3BB /* PBXContainerItemProxy */;
-		};
-		4EEC09171CE02FD30006E3BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4EEC08F31CE02FD30006E3BB /* LeaseTracker */;
-			targetProxy = 4EEC09161CE02FD30006E3BB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		4EEC08FD1CE02FD30006E3BB /* Main.storyboard */ = {
+		4E5E8B6A216A7A43002B564C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4EEC08FE1CE02FD30006E3BB /* Base */,
+				4E5E8B6B216A7A43002B564C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4EEC09021CE02FD30006E3BB /* LaunchScreen.storyboard */ = {
+		4E5E8B6F216A7A44002B564C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4EEC09031CE02FD30006E3BB /* Base */,
+				4E5E8B70216A7A44002B564C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -382,39 +207,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4EEC091C1CE02FD30006E3BB /* Debug */ = {
+		4E5E8B73216A7A44002B564C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -428,48 +258,53 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		4EEC091D1CE02FD30006E3BB /* Release */ = {
+		4E5E8B74216A7A44002B564C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -477,149 +312,79 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		4EEC091F1CE02FD30006E3BB /* Debug */ = {
+		4E5E8B76216A7A44002B564C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = LeaseTracker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LeaseTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE = "585c73aa-d700-4d18-bede-bf22abad0aa9";
+				PROVISIONING_PROFILE_SPECIFIER = "Lease Tracker Dev Provisioning Profile";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4EEC09201CE02FD30006E3BB /* Release */ = {
+		4E5E8B77216A7A44002B564C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = LeaseTracker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LeaseTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		4EEC09221CE02FD30006E3BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LeaseTrackerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LeaseTrackerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeaseTracker.app/LeaseTracker";
-			};
-			name = Debug;
-		};
-		4EEC09231CE02FD30006E3BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LeaseTrackerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LeaseTrackerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeaseTracker.app/LeaseTracker";
-			};
-			name = Release;
-		};
-		4EEC09251CE02FD30006E3BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LeaseTrackerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LeaseTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = LeaseTracker;
-			};
-			name = Debug;
-		};
-		4EEC09261CE02FD30006E3BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LeaseTrackerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.LeaseTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = LeaseTracker;
+				PROVISIONING_PROFILE = "585c73aa-d700-4d18-bede-bf22abad0aa9";
+				PROVISIONING_PROFILE_SPECIFIER = "Lease Tracker Application Ad-Hoc Dist Profile";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EEC08EF1CE02FD30006E3BB /* Build configuration list for PBXProject "LeaseTracker" */ = {
+		4E5E8B5E216A7A43002B564C /* Build configuration list for PBXProject "LeaseTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EEC091C1CE02FD30006E3BB /* Debug */,
-				4EEC091D1CE02FD30006E3BB /* Release */,
+				4E5E8B73216A7A44002B564C /* Debug */,
+				4E5E8B74216A7A44002B564C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EEC091E1CE02FD30006E3BB /* Build configuration list for PBXNativeTarget "LeaseTracker" */ = {
+		4E5E8B75216A7A44002B564C /* Build configuration list for PBXNativeTarget "LeaseTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EEC091F1CE02FD30006E3BB /* Debug */,
-				4EEC09201CE02FD30006E3BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4EEC09211CE02FD30006E3BB /* Build configuration list for PBXNativeTarget "LeaseTrackerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EEC09221CE02FD30006E3BB /* Debug */,
-				4EEC09231CE02FD30006E3BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4EEC09241CE02FD30006E3BB /* Build configuration list for PBXNativeTarget "LeaseTrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EEC09251CE02FD30006E3BB /* Debug */,
-				4EEC09261CE02FD30006E3BB /* Release */,
+				4E5E8B76216A7A44002B564C /* Debug */,
+				4E5E8B77216A7A44002B564C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4EEC08EC1CE02FD30006E3BB /* Project object */;
+	rootObject = 4E5E8B5B216A7A43002B564C /* Project object */;
 }
